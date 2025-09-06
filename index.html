@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanación | El poder de la palabra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación-->
+    <header>
+    <nav aria-label="Navegación principal">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Espacio de Sanación</h1> <!-- Puedes reemplazar por un <img> para un logo -->
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#content">Contenido</a></li>
+                <!-- <li><a href="#gallery">Galería</a></li> -->
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Hero -->
+        <section id="hero" aria-labelledby="hero-title">
+            <h1 id="hero-title"> Bienvenidos a Nuestro Espacio de Encuentro</h1>
+            <p>Donde el poder de salvarse esta en cada uno</p>
+            <a href="#contact" class="cta-button">¡Contactanos!</a>
+        </section>
+        <!-- Content -->
+        <section id="content" aria-labelledby="content-title">
+            <h2>Nuestro contenido</h2>
+            <article>
+                <h3>¿Estás listo para encontrarte?</h3>
+                <p>¿Alguna vez has sentido que algo dentro de ti busca alivio, equilibrio o una conexión más profunda? En un mundo lleno de ruido y desafíos, todos anhelamos encontrar calma, propósito y una chispa que reavive nuestra esperanza. La sanación espiritual es el camino para reconectar con tu esencia, fortalecer tu fe y despertar la poderosa fuerza de voluntad que ya llevas dentro.No importa si eres joven y buscas respuestas, si estás en la plenitud de la vida enfrentando retos diarios, o si deseas encontrar serenidad en tus años dorados: nuestro servicio de sanación espiritual está diseñado para todos. A través de encuentros presenciales llenos de energía, guía y comunidad, te acompañaremos en un viaje transformador donde tu fe será el faro y tu voluntad, el motor.</p>
+            </article>
+            <article>
+                <h3>¿Qué puedes esperar?</h3>
+                <ul>
+                    <li>Un espacio seguro y acogedor: Un lugar donde serás escuchado, valorado y guiado sin juicios.</li>
+                    <li>Conexión con tu interior: Aprenderás a canalizar tu fe y fuerza interior para superar bloqueos emocionales, encontrar claridad y sanar desde el alma.</li>
+                    <li>Comunidad para todas las edades: Jóvenes, adultos y mayores se unen en este camino, porque la sanación no tiene edad.</li>
+                    <li>Guías dedicadas: Nuestros facilitadores te acompañarán con calidez y experiencia, ayudándote a descubrir el poder que ya reside en ti.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>¿Por qué elegir la sanación espiritual?</h3>
+                <p>La vida nos pone a prueba, pero también nos regala herramientas para sanar. La fe, esa luz que todos llevamos, junto con la fuerza de voluntad, son llaves para abrir puertas hacia la paz, la resiliencia y la alegría. No necesitas experiencia previa, solo el deseo de crecer, sanar y abrazar una versión más plena de ti mismo.</p>
+            </article>
+            <article>
+                <h3>¡Da el primer paso hoy!</h3>
+                <p>Nuestras clases presenciales son más que un curso: son una experiencia transformadora. Si sientes el llamado a sanar, a reconectar con tu propósito o a encontrar paz en tu corazón, este es tu momento. Contáctanos para reservar tu lugar y comienza este viaje hacia una vida más luminosa.Tu sanación comienza con un solo paso. ¡Te esperamos con los brazos abiertos!</p>
+            </article>
+        </section>
+        <!-- Gallery-->
+        <!-- <section id="gallery" aria-labelledby="gallery-title">
+            <h2 id="gallery-title"> Galería de Imágenes y Videos</h2>
+            <div class="gallery-container">
+                <figure>
+                    <img src="image1.jpg" alt="Descripcion de esta imagen">
+                    <figcaption>Descripcion breve de la imagen 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="image2.jpg" alt="Descripcion de esta imagen">
+                    <figcaption>Descripcion breve de la imagen 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="image3.jpg" alt="Descripcion de esta imagen">
+                    <figcaption>Descripcion breve de la imagen 3</figcaption>
+                </figure>
+                <figure>
+                    <video controls aria-label="Video demostrativo 1">
+                        <source src="video1.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <figcaption>Descripcion breve del video 1</figcaption>
+                </figure>
+                <figure>
+                    <video controls aria-label="Video demostrativo 2">
+                        <source src="video2.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <figcaption>Descripcion breve del video 1</figcaption>
+                </figure>
+
+                <figure>
+                    <video controls aria-label="Video demostrativo 2">
+                        <source src="video2.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <figcaption>Descripcion breve del video 1</figcaption>
+                </figure>
+
+            </div>
+        </section> -->
+        <!-- Form -->
+        <section id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contactate con nosotros ☎</h2>
+    <form id="whatsappForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required aria-required="true">
+
+        <label for="phone">Número de WhatsApp:</label>
+        <input type="tel" id="phone" name="phone" required aria-required="true" placeholder="Ej: +5491234567890">
+
+        <label for="message">Mensaje:</label>
+        <textarea name="message" id="message" rows="5" required aria-required="true" placeholder="Cuéntanos cómo podemos ayudarte"></textarea>
+        
+        <button type="submit">Enviar por WhatsApp</button>
+        <p>Al enviar este formulario, aceptas nuestros <a href="pages/terms.html">Términos y Condiciones</a> y nuestra <a href="pages/privacy.html">Política de Privacidad</a>.</p>
+    </form>
+</section>
+    </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Somos un grupo que está esperandote para acompañarte a mejorar en todos los ambitos posibles de la vida.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Útiles</h3>
+                    <ul>
+                        <li><a href="pages/privacy.html">Política de Privacidad</a></li>
+                        <li><a href="pages/terms.html">Términos y Condiciones</a></li>
+                        <li><a href="pages/faq.html">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a></p>
+                    <p>Telefono: +5491131747811</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Síguenos</h3>
+                    <ul>
+                        <li><a href="https://facebook.com" aria-label="Facebook">Facebook</a></li>
+                        <li><a href="https://twitter.com" aria-label="X">X</a></li>
+                        <li><a href="https://instagram.com" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="https://tiktok.com" aria-label="Tiktok">Tiktok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2025 Nombre de la Empresa. Todos los derechos reservados.</p>
+        </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
